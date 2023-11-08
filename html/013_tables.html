@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Table Creation</h1>
+    <hr />
+    <table border="2">
+      <caption>
+        just a random table example
+      </caption>
+      <thead>
+        <tr>
+          <td><b>Number</b></td>
+          <td><b>Name</b></td>
+          <td><b>Surname</b></td>
+          <td><b>Birth Year</b></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Dave</td>
+          <td>Mustang</td>
+          <td>1961</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Dav</td>
+          <td>Mustan</td>
+          <td rowspan="2">1962</td>
+        </tr>
+        <!-- Merging Cell Examples-->
+        <tr>
+          <td colspan="2">2</td>
+          <td>Dav</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
